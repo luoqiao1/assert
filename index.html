@@ -69,7 +69,7 @@
       { name: '河南省', region: '官话', yinping: 54 }
     ];
 
-    fetch('assert/120000_full.json')
+fetch('https://raw.githubusercontent.com/luoqiao1/assert/main/120000_full.json')
       .then(res => res.json())
       .then(geoJson => {
         chart.hideLoading();
